@@ -27,7 +27,7 @@ Things you may want to cover:
 初めてRubyの開発にトライ。下記のyoutubeに沿って制作。
 https://www.youtube.com/watch?v=CfdRXSrwLDo
 
-ruby
-sqlite
-bundler
-rails
+* ruby
+* SQlite
+* bundler
+* rails
