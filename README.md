@@ -12,7 +12,8 @@ Things you may want to cover:
 
 * Configuration
 
-* Database creation SQlite
+* Database creation
+  SQlite3
 
 * Database initialization
 
@@ -32,3 +33,4 @@ https://www.youtube.com/watch?v=CfdRXSrwLDo
 * SQlite
 * bundler
 * rails
+  3.46.0
