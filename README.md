@@ -27,6 +27,8 @@ Things you may want to cover:
 # yt-bbs
 
 初めてRubyの開発にトライ。下記のyoutubeに沿って制作。
+
+【Ruby on Rails入門】初心者OK！掲示板アプリを作りながら学ぶRuby on Rails入門
 https://www.youtube.com/watch?v=CfdRXSrwLDo
 
 * ruby
