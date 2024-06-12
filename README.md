@@ -6,12 +6,14 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+  ruby 3.3.2
 
 * System dependencies
 
 * Configuration
 
 * Database creation
+  SQlite3
 
 * Database initialization
 
@@ -23,3 +25,14 @@ Things you may want to cover:
 
 * ...
 # yt-bbs
+
+初めてRubyの開発にトライ。下記のyoutubeに沿って制作。
+
+【Ruby on Rails入門】初心者OK！掲示板アプリを作りながら学ぶRuby on Rails入門
+https://www.youtube.com/watch?v=CfdRXSrwLDo
+
+* ruby
+* SQlite
+* bundler
+* rails
+  3.46.0
