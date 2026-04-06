@@ -1,38 +1,19 @@
-# README
+# 簡易BBS（掲示板）アプリ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 概要
+Vanilla JavaScript を使用して作成した簡易掲示板アプリです。  
+投稿フォームからメッセージを入力すると、画面に追加されていきます。
 
-Things you may want to cover:
+## 使用技術
+- HTML5：画面構成、UI設計
+- CSS3：レイアウト、スタイル調整
+- JavaScript（Vanilla JS）
+  - DOM操作
+  - イベントハンドリング
+  - 配列データの管理
+  - 画面レンダリング
 
-* Ruby version
-  ruby 3.3.2
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-  SQlite3
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# yt-bbs
-
-初めてRubyの開発にトライ。下記のyoutubeに沿って制作。
-
-【Ruby on Rails入門】初心者OK！掲示板アプリを作りながら学ぶRuby on Rails入門
-https://www.youtube.com/watch?v=CfdRXSrwLDo
-
-* ruby
-* SQlite
-* bundler
-* rails
-  3.46.0
+## 今後の改善点
+- ローカルストレージに保存してリロードしても残るようにする
+- 削除機能の追加
+- UIデザインの改善
