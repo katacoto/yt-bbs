@@ -1,38 +1,50 @@
-# README
+# 簡易BBS（掲示板）アプリ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 概要
 
-Things you may want to cover:
+Ruby on Rails を使用して作成した簡易掲示板アプリです。  
+投稿フォームからタイトルと本文を入力すると、一覧に追加されます。
 
-* Ruby version
-  ruby 3.3.2
+※学習目的で作成したアプリです。
 
-* System dependencies
+## 使用技術
 
-* Configuration
+### Backend
 
-* Database creation
-  SQlite3
+- Ruby 3.x
+- Ruby on Rails 7.x
+- MVC アーキテクチャ
+- ActiveRecord（ORM）
 
-* Database initialization
+### Database
 
-* How to run the test suite
+- SQLite3（開発環境）
 
-* Services (job queues, cache servers, search engines, etc.)
+### Frontend
 
-* Deployment instructions
+- HTML / CSS
+- ERB（Embedded Ruby）
+- Rails ヘルパー（link_to, button_to, form_with など）
 
-* ...
-# yt-bbs
+### 機能
 
-初めてRubyの開発にトライ。下記のyoutubeに沿って制作。
+- 投稿の CRUD（作成 / 一覧 / 編集 / 更新 / 削除）
+- Strong Parameters による安全なパラメータ受け渡し
+- before_action による共通処理の切り出し
+- Rails 標準の CSRF 対策
 
-【Ruby on Rails入門】初心者OK！掲示板アプリを作りながら学ぶRuby on Rails入門
+- ## 画面イメージ
+  ![screenshot](./docs/screenshot_posts.png)
+  ![screenshot](./docs/screenshot_new.png)
+  ![screenshot](./docs/screenshot_edit.png)
+
+## 今後の改善点
+
+- バリデーションの追加
+- 投稿の並び順を新しい順に変更
+- UIデザインの改善
+
+## 参考にした教材
+
+【Ruby on Rails入門】初心者OK！掲示板アプリを作りながら学ぶRuby on Rails入門  
 https://www.youtube.com/watch?v=CfdRXSrwLDo
-
-* ruby
-* SQlite
-* bundler
-* rails
-  3.46.0
